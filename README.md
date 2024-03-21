@@ -10,9 +10,13 @@ Bilateral Reference Network achieves SOTA result in multi Salient Object Segment
 2. `git clone https://github.com/viperyl/ComfyUI-BiRefNet.git `
 3. `pip install requirements.txt`
 
+## Checkpoints Download
+
+
+
 ## Usage
 
-
+![](./assets/Screenshot 2024-03-21 at 19.26.21.png)
 
 
 
