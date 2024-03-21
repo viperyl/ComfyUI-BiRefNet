@@ -17,7 +17,7 @@ Bilateral Reference Network achieves SOTA result in multi Salient Object Segment
 
 ## Usage
 
-![plot](./assets/Screenshot 2024-03-21 at 19.26.21.png)
+![plot](./assets/Screenshot-2024-03-21-at-19.26.21.png)
 
 
 
