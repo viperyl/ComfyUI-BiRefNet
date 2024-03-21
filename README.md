@@ -12,7 +12,8 @@ Bilateral Reference Network achieves SOTA result in multi Salient Object Segment
 
 ## Checkpoints Download
 
-
+1. go to comfyUI models folder, `ComfyUI/models/`
+2. `git clone https://huggingface.co/ViperYX/BiRefNet`
 
 ## Usage
 
