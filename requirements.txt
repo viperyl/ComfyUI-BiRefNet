@@ -1,2 +1,6 @@
 kornia
 loguru
+opencv-python
+timm
+prettytable
+scipy

@@ -19,6 +19,10 @@ Bilateral Reference Network achieves SOTA result in multi Salient Object Segment
 
 ![plot](./assets/Screenshot-2024-03-21-at-19.26.21.png)
 
+## Sample Result
+
+
+
 # Acknowledgments
 
 Thanks to BiRefNet repo owner [ZhengPeng7/BiRefNet: Bilateral Reference for High-Resolution Dichotomous Image Segmentation (github.com)](https://github.com/zhengpeng7/birefnet)
