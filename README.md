@@ -19,6 +19,8 @@ Make sure you have intall `git lfs`
 
 ## Usage
 
+The demo workflow placed in `workflow/example_workflow.json`
+
 ![plot](./assets/Screenshot-2024-03-21-at-19.26.21.png)
 
 ## Sample Result
