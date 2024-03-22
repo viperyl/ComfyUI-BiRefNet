@@ -12,6 +12,8 @@ Bilateral Reference Network achieves SOTA result in multi Salient Object Segment
 
 ## Checkpoints Download
 
+Make sure you have intall `git lfs`
+
 1. go to comfyUI models folder, `ComfyUI/models/`
 2. `git clone https://huggingface.co/ViperYX/BiRefNet`
 
@@ -21,7 +23,11 @@ Bilateral Reference Network achieves SOTA result in multi Salient Object Segment
 
 ## Sample Result
 
+![](./assets/00.jpg)
 
+![](./assets/01.jpg)
+
+![](./assets/02.jpg)
 
 # Acknowledgments
 
