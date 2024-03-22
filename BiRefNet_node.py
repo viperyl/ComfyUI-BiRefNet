@@ -44,6 +44,14 @@ class BiRefNet_node:
         self.ready = False
 
     def load(self, weight_path, device, verbose=False):
+        # process auto
+        if device == "auto":
+            if torch.backends.mps.is_available():
+                device = "mps"
+            elif torch.cuda.is_available():
+                device = "cuda"
+            else:
+                device = "cpu"
         # load model
         self.model = BiRefNet()
         state_dict = torch.load(weight_path, map_location='cpu')
