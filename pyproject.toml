@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-birefnet"
+description = "Bilateral Reference Network achieves SOTA result in multi Salient Object Segmentation dataset, this repo pack BiRefNet as ComfyUI nodes, and make this SOTA model easier use for everyone."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["kornia", "loguru", "opencv-python", "timm", "prettytable", "scipy"]
+
+[project.urls]
+Repository = "https://github.com/viperyl/ComfyUI-BiRefNet"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-BiRefNet"
+Icon = ""
