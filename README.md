@@ -10,12 +10,19 @@ Bilateral Reference Network achieves SOTA result in multi Salient Object Segment
 2. `git clone https://github.com/viperyl/ComfyUI-BiRefNet.git `
 3. `pip install requirements.txt`
 
-## Checkpoints Download
+## Download Model Checkpoints
 
-Make sure you have intall `git lfs`
+Before using BiRefNet, download the model checkpoints with Git LFS:
 
-1. go to comfyUI models folder, `ComfyUI/models/`
-2. `git clone https://huggingface.co/ViperYX/BiRefNet`
+1. Ensure `git lfs` is installed. If not, [install it](https://git-lfs.github.com/).
+2. Download the checkpoints to the ComfyUI models directory by pulling the large model files using git lfs:
+   ```bash
+   cd ./models/
+   git clone https://huggingface.co/ViperYX/BiRefNet
+   cd BiRefNet
+   git lfs install
+   git lfs pull
+   ```
 
 ## Usage
 
