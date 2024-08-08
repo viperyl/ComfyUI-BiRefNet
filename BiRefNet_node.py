@@ -17,6 +17,7 @@ from torchvision import transforms
 
 from loguru import logger
 from folder_paths import models_dir
+from utils import check_download_model
 
 config = Config()
 
@@ -98,6 +99,7 @@ class BiRefNet_node:
 
         if not self.ready:
             weight_path = os.path.join(models_dir, "BiRefNet", "BiRefNet-ep480.pth")
+            check_download_model(weight_path)
             self.load(weight_path, device=device)
         
         image = image.squeeze().numpy()
