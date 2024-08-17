@@ -5,6 +5,7 @@ from torchvision.models import vgg16, vgg16_bn, VGG16_Weights, VGG16_BN_Weights,
 from models.backbones.pvt_v2 import pvt_v2_b2, pvt_v2_b5
 from models.backbones.swin_v1 import swin_v1_t, swin_v1_s, swin_v1_b, swin_v1_l
 from config import Config
+from utils import check_download_model
 
 
 config = Config()
@@ -26,6 +27,7 @@ def build_backbone(bb_name, pretrained=True, params_settings=''):
     return bb
 
 def load_weights(model, model_name):
+    check_download_model(config.weights[model_name])  # download the weights if not exists
     save_model = torch.load(config.weights[model_name], map_location=torch.device('cpu'))
     model_dict = model.state_dict()
     state_dict = {k: v if v.size() == model_dict[k].size() else model_dict[k] for k, v in save_model.items() if k in model_dict.keys()}
